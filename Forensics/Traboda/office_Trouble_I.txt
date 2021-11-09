@@ -1,0 +1,4 @@
+fcrackzip -v -u -D -p rockyou.txt office.zip
+found file 'the_office.jpg', (size cp/uc  66177/ 66821, flags 9, chk b434)
+PASSWORD FOUND!!!!: pw == perfectlypunk
+

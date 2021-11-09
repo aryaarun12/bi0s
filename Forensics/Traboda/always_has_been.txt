@@ -1,0 +1,3 @@
+stegoveritas always.png
+in the results directory.. found an image which gave the flag
+-->inctfj{th3_fl4g_wa5_liter4lly_ins1de_4_m3me}

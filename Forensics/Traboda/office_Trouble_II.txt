@@ -1,0 +1,6 @@
+THE OFFICE TROUBLE II
+CHALLENGE DESCRIPTION
+Jim took his revenge by encrypting Dwight's client information which was in a PDF file You know what to do.. Right ?
+
+pdfcrack -f client.pdf -w rockyou.txt
+gives the password: fear420

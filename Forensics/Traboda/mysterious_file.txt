@@ -1,0 +1,5 @@
+Mysterious file
+CHALLENGE DESCRIPTION
+Help us find out more information about this file....
+
+Just opening the file gave the flag

@@ -1,0 +1,7 @@
+CORRUPTED FILE
+CHALLENGE DESCRIPTION
+Reshma thinks there is some issue with this file. Can you help Reshma in fixing the issue with this file?
+
+strings corr.zip
+gives a base64 encoded text: ZmxhZ3s5ZTM2MDA4NDE5NmEwOTJhMTVjNWM0NGI1NDkzNGJmY30=
+gives: flag{9e360084196a092a15c5c44b54934bfc}

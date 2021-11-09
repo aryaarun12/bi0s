@@ -1,0 +1,5 @@
+zsteg det.png
+gives a link: https://pastebin.com/KudUCfTC
+which gives a base64 encoded text: ZmxhZ3tNMTVzSTBOX2FDYzBNUEwxNWgzRH0=
+I decoded it using an online decoder which gave: flag{M15sI0N_aCc0MPL15h3D}
+

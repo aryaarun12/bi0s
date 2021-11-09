@@ -1,0 +1,8 @@
+Traffic 13
+I have captured the network traffic from my friends system. Can you help me analyzing it?
+
+Analysing the pcap file we directly get a text
+its a caeser cipher  
+On decoding:
+inctfj{b3w4re_0f_cyB3R_THr3at5}
+

@@ -1,0 +1,3 @@
+stegsnow -C snow.txt gives:
+ntio{eP1B35x4K3_aB3O0_q5_K00t} which when online decoded gives:
+flag{wH1T35p4C3_sT3G0_i5_C00l}

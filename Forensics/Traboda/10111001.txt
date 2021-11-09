@@ -1,0 +1,8 @@
+10111001
+CHALLENGE DESCRIPTION
+The most significant digit is not always left unnoticed...
+
+zsteg steg.png gave:
+Here is your flag : NFXGG5DGNJ5TI3K7ORUDGX2MGNAVG5C7GVUUO3RRMYYWGNDOKRPWEVKUL4YV6YZUJZPXI4RQOVBEYM27LEYHKXZUL5WDAVD5"
+This is a base32 encoded text
+On decoding it give-->  inctfj{4m_th3_L3ASt_5iGn1f1c4nT_bUT_1_c4N_tr0uBL3_Y0u_4_l0T}

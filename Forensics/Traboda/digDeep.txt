@@ -1,0 +1,9 @@
+binwalk dig.jpg
+d if=dig.jpg of=1.jpg bs=1 skip=282714
+ -->flag{7b560d81c0
+dd if=dig.jpg of=4.jpg bs=1 skip=542545
+ -->202015ed269630d
+dd if=dig.jpg of=6.zip bs=1 skip=542343
+ -->2b8b1993d2e7788}
+
+flag{7b560d81c0202015ed269630d2b8b1993d2e7788}

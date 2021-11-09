@@ -1,0 +1,2 @@
+binwalk con.png
+dd if=con.png of=q.jpg bs=1 skip=7821

@@ -1,0 +1,7 @@
+SPECTROLOGY
+CHALLENGE DESCRIPTION
+While I am observing the moon, heard this weird sound but couldn't find out what that is. Can you help me in finding it out?
+
+sonic-visualiser spec.wav gave a QR code which on scanning gave
+flag{37cf5228845c7cf89f78e4ad61c9fafa81e46a6d}
+

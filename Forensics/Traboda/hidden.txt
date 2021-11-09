@@ -1,0 +1,11 @@
+Hidden Data
+CHALLENGE DESCRIPTION
+We could only recover this file. Help us in this mission...
+
+Given a zip file with error
+Analyzed using ghex
+Correct 08 09 to 03 04
+zip -FF av_333b8b47-b3e6-478b-9b66-14c135f142c3.zip --out output.zip
+In output.zip, a text file with flag:
+inctfj{GR3aT_m155i0n_4Cc0mpL15h3D}
+

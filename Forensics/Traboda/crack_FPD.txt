@@ -1,0 +1,8 @@
+CRACK FDP
+CHALLENGE DESCRIPTION
+I forgot the password for this important file, can you help me in finding the password and important information present in this file?
+
+pdfcrack -f crack.pdf -w rockyou.txt
+gave password: diosayudameenelesut
+Found the flag in the 5th page-->
+flag{1ae06a29a7abd6c07dba8976698f756b987f734d}

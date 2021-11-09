@@ -1,0 +1,10 @@
+Winter Sport
+CHALLENGE DESCRIPTION
+I have a friend named Jake, We were watching a football tournament on one fine chilly morning. Meanwhile Jake's sister Susan did something mischievous which cause Jake to lose some really important data. We could only find this piece of evidence, can you recover it for him?
+
+On extracting the given zip file, we find a pdf: file.pdf , so:
+$ binwalk file.pdf
+showed: 865           0x361           7-zip archive data, version 0.3
+On extracting it, there was another pdf: omg.pdf
+$ stegsnow -C omg.pdf
+gave the flag: inctf{w3lcom3_t0_7h3_w0rld_0f_whit3sp4c3}

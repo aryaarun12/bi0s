@@ -1,0 +1,11 @@
+Mariana_Trench_Deep
+CHALLENGE DESCRIPTION
+It's too deep that no one can reach it. Not even you! Reach the deepest point you can to find the flag! Its too Deep!
+
+Given a text file, mp3 and jpg
+After a lot of basic analysis on each of them, found nothing.
+So googled the words of text file.. found it waa brainfuck language Ook
+
+So found an online decoder: https://www.dcode.fr/ook-language
+which directly gave the flag:
+inctfj{l4ngu4g35_d0nt_m4k3_s3ns3}

@@ -1,0 +1,8 @@
+DEEPER..
+CHALLENGE DESCRIPTION
+Dive deep into the image......
+
+binwalk deepr.jpg
+dd if=deepr.jpg of=1.zip bs=1 skip=9806 --> gives an audio file marshmello.mp3
+audacity mar.mp3 --> gave a morse code 
+On decoding gave: INCTFH34RW1THY0UR3Y35

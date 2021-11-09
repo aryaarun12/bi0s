@@ -1,0 +1,35 @@
+### It's Complicated My Pal
+Hey pal, I was sniffing some packets and stumbled upon some weird traffic, no idea what it is though.
+Could you take a look at it? It's complicated for me and I can't analyze it by myself.
+File Name: capture.tar.gz
+
+On analysing the file with wireshark 
+Found some icmp packets which had some zip file being shared
+Extracted it using scapy:
+The script-->
+
+
+from scapy.all import *
+packet= rdpcap ( 'capture.pcap' )
+data= '' 
+for p in packet:
+     if p.haslayer (ICMP):
+         if p [IP].src == '192.168.1.200' :
+            data=data+(p [Raw] .load)
+#data=str.encode(data)
+with  open ( 'flag.zip' , 'wb' ) as f:
+    f.write (data)
+
+
+$ python a.py
+The extracted zip file was password protected
+
+$ fcrackzip -v -u -D -p rockyou.txt flag.zip
+found file 'flag.jpg', (size cp/uc 225389/225940, flags 9, chk ac92)
+checking pw buday1                                  
+PASSWORD FOUND!!!!: pw == craccer
+
+The zip had a jpeg whoch gave the flag-->
+shellmates{icmp_p@yl04d_4in't_us3l3ss_4ft3r_4ll_r1ght?}
+
+

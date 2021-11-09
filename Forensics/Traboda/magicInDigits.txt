@@ -1,0 +1,2 @@
+ghex magic.png
+correct some chunks gives--> flag{Chunks_4r3_1mpor74n7_f0r_1mage5}

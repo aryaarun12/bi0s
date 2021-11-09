@@ -1,0 +1,6 @@
+2. http.pcap
+
+-Analysed pcap using wireshark
+-Exported all the http packets
+-In one of the saved files found the flag:
+picoCTF{n0ts3cur3_894a6546}

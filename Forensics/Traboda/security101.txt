@@ -1,0 +1,4 @@
+~/Downloads/sec$ cat my_inspiration.jpg
+Found a text in it: R3DDIT_US3R
+It opened the other image
+-->inctfj{1ts_4ll_f1ne_tru5t_m3}

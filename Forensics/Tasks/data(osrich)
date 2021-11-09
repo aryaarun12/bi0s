@@ -1,0 +1,25 @@
+### Orcish
+An army of orcs was spotted not too far from town. We were listening in on some of their communications but we have not been able to find anything containing their battle plans. Maybe they are disguising the messages some how..
+File Name: data.pcap
+
+Analysing it with wireshark
+Found some icmp files which has letters G,I,F in it
+So extarcted the whole icmp packets using:
+
+
+from scapy.all import *
+packet= rdpcap ( 'data.pcap' )
+j=''
+for p in packet:
+     if p.haslayer (ICMP):
+         if p [IP].src == '10.136.255.127' :
+            tb = chr(p[ICMP].type)
+	    j=j+tb
+with  open ( 'flag.gif' , 'wb' ) as f:
+    f.write(j)
+    
+
+
+The extracted gif gave the flag-->
+flag{we_ride_at_midnight}
+

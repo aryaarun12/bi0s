@@ -1,0 +1,35 @@
+Fresh from the Oven
+CHALLENGE DESCRIPTION
+I have intercepted one of my friend's chat. Can you help me in analyzing it?
+Flag format: inctf{some_l33t_string}
+
+-After a lot of analysing on the given pcap file, 
+-Applied filter 'data', and found the conversation:
+-Some of it was encrypted, but decoded it using caeser cipher, ROT 5 (they gave hint by highlight 'fifth' in  the conversation
+-The conversation said:
+	This is a sample in that encoded way.
+	Oh, It's good and it took a lot of time to understand for me.
+	Sending you some interesting files, try to find the secret behind them and keep it confidential
+	Transferring files....
+-Afte that there are lot of packets with huge amt of data .. some 800bytes to 2 different ports and some 1330 bytes
+-Wrote a scapy script and extracted 3 of them seperately as- 444, 81, 1330
+-But none of them made sense
+-After trying out a few things, I tried rotating the hexdump of those 3 extracted files, of which file 444 gave--> %PDF and file 81 gave--> PK 
+-So 444 and 81 can be a pdf and zip file respectievely
+-Extracting it using the scapy script, we got--> 81.zip and 444.pdf
+
+-81.zip was password protected so:
+	 $ fcrackzip -v -u -D -p ../rockyou.txt 81.zip
+	gave-->PASSWORD FOUND!!!!: pw == johnjandroveclarkmichaelkent
+-Unzip the file, we get a image "flag.png"
+-After a lot of analysing on the image i gave:
+	$ zsteg -a flag.png
+	gave a 'Lorem ipsum text, tried googling and decoding, realised it was just a random text so,
+	
+	$ zsteg -E b1,bgr,lsb,xy flag.png > flag.txt
+	$ strings flag.txt | grep inctf
+gave the flag-->
+
+inctf{3ach_4nd_3v3ry_s3cre7_inf0rm4t10n_w1ll_b3_kn0wn_by_wir3shark!!!!!_:)}	
+
+

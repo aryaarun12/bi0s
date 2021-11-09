@@ -1,0 +1,8 @@
+Snow Man
+CHALLENGE DESCRIPTION
+Read the challenge name again! And yeah, everything you need is present in this file.
+
+On analysing the given text file we see that, password=thisiseasy
+$ stegsnow -C -p "thisiseasy" snow.txt
+gives-->aW5jdGZqe2g0aDRfc3QzZ3NuMHdfaTVfYzAwMDAwMDAxfQ==
+b64 decoding : inctfj{h4h4_st3gsn0w_i5_c00000001}

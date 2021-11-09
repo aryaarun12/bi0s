@@ -1,0 +1,5 @@
+audacity sig.wav
+Gave a morse code:
+Also i tried it using an online morse decoder: https://morsecode.world/international/decoder/audio-decoder-adaptive.html
+gave-->
+Y0UG0T7HES3CRE7ENC0DEDS7RING

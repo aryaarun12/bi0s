@@ -1,0 +1,10 @@
+$ steghide extract -sf b.jpg
+Enter passphrase: 
+wrote extracted data to "password.txt".
+
+$ steghide extract -sf b0.jpg
+Enter passphrase: 
+wrote extracted data to "plans.txt".
+
+inctfj{w3_4r3_pl4nt1ng_4_b0mb}
+

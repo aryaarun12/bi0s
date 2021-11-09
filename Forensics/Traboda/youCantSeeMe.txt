@@ -1,0 +1,3 @@
+Tools used: ghex editor and pngcheck
+Chunks that was found to cause the error: IHDR, IDAt, gAMA
+Correcting them gave the flag --> inctfj{WH4t_ar3_pNgCHUnkS?}

@@ -1,0 +1,30 @@
+### Biz44re
+Kevin sent me a file with some hidden message. Help me recover this secret from this bizzare network.
+File Name: bizz.pcap
+
+Analysing it with wireshark
+Found some icmp packets
+Which had the hex dump of a zip file in it .. 50 4b..
+Extracted using this script:
+
+from scapy.all import *
+pt= rdpcap ( 'bizz.pcap' )
+data= ''
+s=''
+l=len(pt)
+arr=[]
+for i in pt:
+	data=''
+	if(i.haslayer(ICMP) and i[IP].src=='10.30.8.102'):
+		for j in i:
+			data=data+str(j)
+		s=s+data[142:]
+with  open ( 'bizz.zip' , 'wb' ) as f:
+	#s=hex(s)
+	#d=bytes.fromhex(s)
+	#s=bytes(s,'utf-8')
+	f.write(s.decode("hex"))	
+
+
+The extracted zip file has a png in it with flag-->
+inctfj{_s0meTim3d_u_h4v3_t0_lOOk_3v3ryWh3r3_cl0s3r_T0_G3T_th3_whol3!}

@@ -1,0 +1,5 @@
+NOISE
+CHALLENGE DESCRIPTION
+Alex receives a strange audio file. Help him find out what is hidden in it?
+
+audacity noise.wav --> inctfj{y0u_b3tt3r_l00k_cl0s3ly}
