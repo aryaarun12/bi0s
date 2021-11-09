@@ -1,0 +1,11 @@
+Base64
+Take the below hex string, decode it into bytes and then encode it into Base64.
+72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf
+
+-The string is converted to bytes from hexstring
+-Its is base64 encoded which gives the flag
+-base64.b64encode()- encodes the string into the binary form.
+--> crypto/Base+64+Encoding+is+Web+Safe/
+
+
+

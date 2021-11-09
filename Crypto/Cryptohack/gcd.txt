@@ -1,0 +1,6 @@
+Greatest Common Divisor
+Now calculate gcd(a,b) for a = 66528, b = 52920 (Euclidean algorihtm)
+
+According to Euclidan algorithm:
+-We repeatedly divide the smaller number, and stops when we find remainder 0.
+And print a

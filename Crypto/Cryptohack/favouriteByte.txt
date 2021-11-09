@@ -1,0 +1,11 @@
+Favourite byte
+I've hidden my data using XOR with a single byte. Don't forget to decode from hex first.
+73626960647f6b206821204f21254f7d694f7624662065622127234f726927756d
+
+-s stores the unhexilified string
+-An array is created with the characters from the string
+-Since there are 256 ascii characters, we create a loop
+-And with each iteration we store the xored value of the initial string with the ascii value, which is merged into a string
+-And if the string has "crypto" in it, it is printed
+-->crypto{0x10_15_my_f4v0ur173_by7e}
+

@@ -1,0 +1,3 @@
+-The string is inputed to x
+-byes.fromhex() creates bytes objects of x
+-It is then base64 encoded

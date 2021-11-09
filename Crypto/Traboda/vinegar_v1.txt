@@ -1,0 +1,5 @@
+VINEGAR-V1
+CHALLENGE DESCRIPTION
+I poured my vinegar with "abcxyz" on my flag. Can you help me recover it?
+
+Online decoding: https://www.dcode.fr/vigenere-cipher

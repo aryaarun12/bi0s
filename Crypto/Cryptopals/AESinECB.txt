@@ -1,0 +1,9 @@
+ref: https://techtutorialsx.com/2018/04/09/python-pycrypto-using-aes-128-in-ecb-mode/
+   : https://stackabuse.com/encoding-and-decoding-base64-strings-in-python/
+AES- use keys of 128, 192 and 256 bits
+import AES module from pycrypto lib-  from Crypto.Cipher import AES
+The length of the key needs to be 16, 24 or 32 bytes long, depending if we want to use AES-128, AES-192 or AES-256 respectively 
+Here its "YELLOW SUBMARINE" =16 
+new function of the AES module.--> use the key and mode parameters.(mode parameter corresponds to the chaining mode that is used for decryption / encryption)
+syntax: cipher = AES.new(key, AES.MODE_ECB) ---> known as AESCipher object
+final plaintext--> cipher.encrpyt/decrypt(msg)

@@ -1,0 +1,10 @@
+BASE-BASE-BASE
+CHALLENGE DESCRIPTION
+Have you heard of bases? I heard combination of those can be really cool!
+
+-Initially the text was in base64
+-Decoded it online
+-The output was a base32 encoded
+-Again decoded it online
+-The output was base16 encoded
+-On decoding it --> inctfj{b4s3s_4r3_c00000000l}

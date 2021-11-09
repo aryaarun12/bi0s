@@ -1,0 +1,3 @@
+-a and b takes in two strings
+-it is converted to int
+-then it is simply xored

@@ -1,0 +1,11 @@
+Multi Encoder
+CHALLENGE DESCRIPTION
+Its all about the base
+
+Flag format - inctfj{flag_here}
+
+
+http://www.unit-conversion.info/texttools/hexadecimal/
+https://www.base64decode.org/
+
+used these two 5 times and got--> inctfj{Y0u_@re_Qu1t3_th3_D3c0d3r}

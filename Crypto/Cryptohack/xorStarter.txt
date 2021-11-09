@@ -1,0 +1,6 @@
+XOR Starter
+Given the string "label", XOR each character with the integer 13. Convert these integers back to a string and submit the flag as crypto{new_string}.
+
+-Ascii value of each character in the string is xored with 13
+-And instantly added to f
+-f gives the flag

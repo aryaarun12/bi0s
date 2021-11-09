@@ -1,0 +1,5 @@
+a=input()
+b=input()
+aa=int(a,16)
+bb=int(b,16)
+print(aa^bb)

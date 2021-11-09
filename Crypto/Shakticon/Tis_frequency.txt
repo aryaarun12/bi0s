@@ -1,0 +1,6 @@
+TIS FREQUENCY
+CHALLENGE DESCRIPTION
+Statistics can be of great help when it comes to substitution ciphers. (Maybe search up an online tool?). Flag format : flag{}
+
+Using online decoder:
+	flag{frequency_analysis_is_cool}

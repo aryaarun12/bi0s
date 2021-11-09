@@ -1,0 +1,11 @@
+0xbeadbeef
+
+set disassembly-flavor intel
+disas main
+p 0x6f56df8d --> 1867964301
+p 0xdeadbeef --> 3735928559
+
+given "add    ebx,DWORD PTR [ebp-0x4]"
+
+so 3735928559-1867964301=1867964258
+flag--> inctfj{1867964258,1867964301}

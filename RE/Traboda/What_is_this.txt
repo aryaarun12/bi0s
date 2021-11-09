@@ -1,0 +1,12 @@
+What is this?
+What is this weird file? There is no extension for it. Can you figure out what kind of file it is? Or better yet, can you figure out for which architecture is this file meant for?
+The flag is the name of the architecture wrapped in the flag format: flag{}
+
+objdump -f a.out
+
+a.out:     file format elf64-x86-64
+architecture: i386:x86-64, flags 0x00000150:
+HAS_SYMS, DYNAMIC, D_PAGED
+start address 0x0000000000000550
+
+flag{x86-64}

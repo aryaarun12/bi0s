@@ -1,0 +1,6 @@
+VINEGAR V2
+CHALLENGE DESCRIPTION
+This time i forgot what i pored vinegar with. But i know its of length 6. Recover it.
+
+Simple online decoding since given key length=6
+https://www.dcode.fr/vigenere-cipher
